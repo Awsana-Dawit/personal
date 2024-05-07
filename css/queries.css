@@ -1,0 +1,131 @@
+/* Beyond 768px (Small devices) */
+@media (min-width: 48em) {
+  .container {
+    width: 75rem;
+  }
+}
+/* Beyond 992px (Medium devices) */
+@media (min-width: 62em) {
+  .container {
+    width: 97rem;
+  }
+}
+/* Beyond 1200px (large devices) */
+@media (min-width: 75em) {
+  .container {
+    width: 117rem;
+  }
+}
+
+/* Below 1200px */
+@media (max-width: 75rem) {
+  html {
+    font-size: 56.25%;
+  }
+  .mega-menu img {
+    display: none;
+  }
+}
+/* Below 992px */
+@media (max-width: 62em) {
+  .section-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-hero .container {
+    justify-content: center;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-description {
+    margin: 0 auto;
+  }
+  .hero-image img,
+  .section-skill .container > img,
+  .section-event .container > img {
+    display: none;
+  }
+  .section-how .container,
+  .section-videos .container,
+  .section-discount {
+    flex-direction: column;
+  }
+  .section-videos .image-box {
+    gap: 1rem;
+  }
+  .discount-image,
+  .section-discourt .form {
+    flex-basis: 100%;
+  }
+}
+/* Below 768px */
+@media (max-width: 48em) {
+  .heading-primary {
+    font-size: 3rem;
+  }
+  .hero-description {
+    font-size: 2rem;
+  }
+  .header .logo {
+    width: 100%;
+    height: 4.8rem;
+  }
+  .mega-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0rem;
+    padding: 0.5rem;
+  }
+  .mega-menu .links {
+    width: 100%;
+  }
+  .mega-menu .links:not(:last-child) {
+    border-bottom: 2px solid #e9e6e6;
+  }
+  .main-nav {
+    margin: auto;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    height: 4.8rem;
+    padding: 1rem;
+  }
+  .section-hero .move-down-icon {
+    bottom: 4.4rem;
+  }
+  .event-subscribe form,
+  .event-subscribe form button,
+  .event-subscribe input[type="email"] {
+    border-radius: 0;
+  }
+  .event-subscribe form {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  .event-subscribe form button,
+  .event-subscribe input[type="email"] {
+    width: 100%;
+  }
+  .footer .logo-col {
+    align-items: center;
+  }
+  .footer .logo-col .footer-text {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .footer .nav-col ul a:link {
+    justify-content: center;
+  }
+  .address-col {
+    margin: 2.4rem 0;
+  }
+  .address-col .address {
+    gap: 2.4rem;
+  }
+  .address-col .address-line {
+    flex-direction: column;
+  }
+}
